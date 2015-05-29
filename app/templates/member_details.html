@@ -1,0 +1,20 @@
+<h2 ng-bind="member.name" class="bm-member-name"></h2>
+<h3 ng-bind="member.id" class="bm-member-id"></h3>
+<p>
+    <ul>
+        <li ng-bind-template="ID: {{ member.id }}"
+            class="bm-member-id"></li>
+        <li ng-bind-template="English: {{ member.english }}"
+            class="bm-member-english"></li>
+        <li ng-bind-template="Fee: {{ member.fee }}"
+            class="bm-member-fee"></li>
+         <li ng-bind-template="Graduated: {{ member.graduated }}"
+            class="bm-member-graduated"></li>
+        <li ng-bind-template="Birth Year: {{ member.birthYear }}"
+            class="bm-member-birthYear"></li>
+    </ul>
+</p>
+<hr>
+<p ng-bind="member.place" class="bm-member-place">
+</p>
+<a ng-click="goToListView()" href="" class="bm-list-view-btn">List</a>

@@ -1,0 +1,11 @@
+<input type="text" placeholder="Search..."
+       ng-model="searchText">
+<table class="bm-member-list">
+    <tbody>
+        <tr ng-repeat="member in members | orderBy: getMemberOrder | filter: searchText">
+            <td><a ng-href="#/members/{{ member.name }}" ng-bind="member.name"></a></td>
+            <td ng-bind="member.isMember"></td>
+            <td ng-bind="member.fee"></td>
+        </tr>
+    </tbody>
+</table>

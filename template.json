@@ -1,0 +1,36 @@
+{
+ 
+  "member": {
+    "id": 12345,
+    "name": "John Doe",
+    "kakao": "fathermaria",
+    "skype": "rojaware",
+    "mobile": "877-123-1234",
+    "place": "Seoul",
+    "isFemail": false,
+    "email": [
+      "jd@naver.com",
+      "jd@example.org"
+    ],
+    "english": "IELTS 80",
+    "career": "many jobs",
+    "graduated": "Seoul National Univ 전자공학과",
+    "college": "Sheridan College, Computer Programmer",
+    "birthYear": 1981,
+    "isMember": true,
+    "expired": "2015-06-30T00:00:00.000Z",
+    "fee": 50,
+    "agent": "Olivia Kang",
+     "created": "2014-06-25T00:00:00.000Z",
+    "comments": [
+      {
+        "text": "first meeting",
+        "created": "2015-05-27T00:00:00.000Z"
+      },
+      {
+        "text": "second meeting",
+        "created": "2015-05-27T00:00:00.000Z"
+      }
+    ]
+  }
+}
